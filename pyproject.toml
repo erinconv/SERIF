@@ -6,6 +6,6 @@ build-backend = "flit_core.buildapi"
 name = "SERIF"
 authors = [{name = "Eisinhower Rincon", email = "eisinhower.rincon@inrs.ca"}]
 dynamic = ["version", "description"]
-readme = {file = "README.txt", content-type = "text/x-rst"}
+readme = {file = "README.rst", content-type = "text/x-rst"}
 [project]
 license = {file = "LICENSE"}
