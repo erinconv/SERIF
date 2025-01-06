@@ -1,7 +1,7 @@
 brotli==1.1.0
 cffi==1.17.1
 folium==0.19.3
-gdal==3.9.0
+gdal==3.0.2
 geopandas==1.0.1
 h2==4.1.0
 jaraco.collections==5.1.0
