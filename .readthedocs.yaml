@@ -5,9 +5,8 @@ build:
   tools:
     python: "mambaforge-22.9"
 
-python:
-  install:
-    - requirements: docs/docs.yml
+conda:
+  environment: docs/docs.yml
 
 sphinx:
   configuration: docs/conf.py
