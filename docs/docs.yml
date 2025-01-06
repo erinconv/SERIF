@@ -1,0 +1,11 @@
+name: SERIF
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9.21
+  - matplotlib
+  - rasterio
+  - gdal=3.10.0
+  - geopandas
+prefix: C:\Users\Owner\anaconda3\envs\SERIF
