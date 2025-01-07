@@ -67,9 +67,11 @@ class Segmentation:
         param4 = arcpy.Parameter(displayName="NIR thereshold",
                                  name="nir", datatype="GPLong", 
                                  parameterType="Optional", direction="Input")
+        param4.defaultValue = 77
         param5 = arcpy.Parameter(displayName="NDVI thereshold",
                                  name="ndvi", datatype="GPDouble", 
                                  parameterType="Optional", direction="Input")
+        param5.defaultValue = 0.22
         params = [param0, param1, param2, param3, param4, param5]
         return params
 
@@ -94,10 +96,10 @@ class Segmentation:
         self._center_line_path = parameters[1].valueAsText
         self._GRHQ = parameters[2].valueAsText
         self._streets = parameters[3].valueAsText
-        if len(parameters[4].valueAsText) != 0:
-            self._nir_threshold = int(parameters[5].valueAsText)
-        if len(parameters[4].valueAsText) != 0:
-            self._ndvi_threshold = int(parameters[4].valueAsText)
+        # if len(parameters[4].valueAsText) != 0:
+        # if len(parameters[4].valueAsText) != 0:
+        self._nir_threshold = parameters[5].values
+        self._ndvi_threshold = parameters[4].values
         self._delete_temps()
         self._manage_files()
         self._segmentation(messages)

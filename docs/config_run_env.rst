@@ -11,6 +11,12 @@ Installation of vscode
 Visual Studio Code is a free, open-source code editor that is available for Windows, Mac, and Linux.
 It has a built-in terminal, debugger, and Git integration, making it a popular choice for user and developers.
 
+Follow these steps to install Visual Studio Code:
+
+#. Go to the Visual Studio Code `website <https://code.visualstudio.com/>`_.
+#. Click the "Download for [your operating system]" button.
+#. Run the downloaded installer and follow the prompts to complete the installation. Choose the default options unless you have a specific reason to change them.
+
 Once the code editor is installed, we need to install the Python extensions, as shown in the next image:
 
 .. image:: figures/vscode_python.png

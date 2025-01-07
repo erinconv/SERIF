@@ -18,4 +18,5 @@ Welcome to SERIF documentation!
    :caption: Getting started:
 
    config_run_env
+   arcgis_toolbox
 
