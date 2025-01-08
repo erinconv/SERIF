@@ -38,8 +38,3 @@ SERIF toolbox Installation
     .. code-block:: bash
 
         conda install -c conda-forge geopandas rasterio matplotlib gdal=3.10.0 python=3.9.21 -y
-
-Detailed documentation
-----------------------
-
-Detailed information and tutorials with the step-by-step can be found in the following link:

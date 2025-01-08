@@ -7,16 +7,21 @@
 Welcome to SERIF documentation!
 ================================
 
-**SERIF** is a Python library toolbox for performing automatic river segmentation.
-
 .. note::
 
    This project is under active development.
+
 
 .. toctree::
    :maxdepth: 2
    :caption: Getting started:
 
    config_run_env
-   arcgis_toolbox
+   readme
 
+.. toctree::
+   :maxdepth: 2
+   :caption: Usage of the external tools:
+
+   thresholds
+   arcgis_toolbox

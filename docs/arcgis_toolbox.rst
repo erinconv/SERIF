@@ -43,5 +43,4 @@ In this new window, the fields with the :red:`*` are mandatory. The correct way 
 #. *Centerline path:* Is the shape file that contains the drainage network for the study area
 #. *GRHQ lines:* Is the Quebec Hydrographic Network Geobase (GRHQ). Can be found here: https://open.canada.ca/data/en/dataset/bfbdeb1d-8398-444b-ad78-ab81f9d14e60
 #. *Street network:* Is the shapefile containing the street network.
-#. *NIR and NDVI thresholds:* Are the thresholds for the segmentation process. They are optional values and 
-    if not filled, the tool will take 77 and 0.22 as default values respectively.
+#. *NIR and NDVI thresholds:* Are the thresholds for the segmentation process. They are optional values and if not filled, the tool will take 77 and 0.22 as default values respectively.
